@@ -90,10 +90,91 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Style by Alex Baldwin — http://alexbaldwin.com
    ========================================================================== */
 
+body {
+    background: #D9D4CC;
+}
 
+/*
+ * Container
+ */
+
+
+
+ .container {
+    margin: 4rem auto;
+    width: 600px;
+    background: white;
+ }
+
+ .container header {
+    text-align: center;
+    height:44px;
+    background-color: #ad141e;
+    color: white;
+    border-radius: 4px 4px 0 0;
+
+ }
+
+ .container header h1 {
+    margin:0;
+    line-height: 44px;
+    font-size:18px;
+    font-weight: normal;
+
+ }
+
+ .container section {
+    width: 300px;
+    height:740px;
+    float:left;
+    background-color: #E5E5E5;
+ }
+
+ .playbook h1 {
+    display: block;
+    background-color: #fff;
+    color: #333;
+    line-height: 19px;
+    font-size: 14px;
+    padding: 8px;
+    margin:0;
+    border-bottom: 1px solid rgba(0,0,0,.14);
+
+ }
+
+ .playbook img {
+    width:250px;
+    margin: 25px auto 0;
+    display: block;
+    box-shadow: 0 1px 6px rgba(0,0,0,.28);
+ }
+
+ .playbook p {
+    padding: 0 25px;
+ }
+
+ .playbook p a {
+    margin-top: 40px;
+    display: block;
+    padding: 12px;
+    background-color: #2B5E3A;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+ }
+
+ .playbook p a span {
+    display: block;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255,255,255,.8);
+ }
 
 
 

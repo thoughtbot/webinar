@@ -1,7 +1,7 @@
-require 'sinatra'
+$: << File.join(File.dirname(__FILE__), 'lib')
 
-get '/' do
-  send_file File.join('public', 'index.html')
-end
+require 'rack/log_request_id'
+require 'webinar'
 
-run Sinatra::Application
+use Rack::LogRequestID
+run Webinar

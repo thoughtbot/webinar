@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# Set up all dependencies.
+
+bundle install --binstubs=bin/stubs
+git remote add staging git@heroku.com:webinar-staging.git
+git remote add production git@heroku.com:webinar-production.git

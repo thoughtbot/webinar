@@ -12,7 +12,7 @@ Setup
 
     git clone git@github.com:thoughtbot/webinar.git
     cd webinar
-    ./setup
+    ./bin/setup
 
 Develop
 -------

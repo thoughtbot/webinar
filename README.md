@@ -19,7 +19,7 @@ Develop
 
 Run the server:
 
-    shotgun config.ru
+    foreman start
 
 Edit `public/index.html` and `public/css` files.
 

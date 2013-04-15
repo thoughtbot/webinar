@@ -6,76 +6,41 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-
-html,
 button,
+html,
 input,
 select,
 textarea {
-    color: #222;
+  color: #222;
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
- */
 
 img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
-
-/*
- * Remove default fieldset styles.
- */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
@@ -83,10 +48,10 @@ textarea {
    ========================================================================== */
 
 .chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  margin: 0.2em 0;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
@@ -94,192 +59,134 @@ textarea {
    ========================================================================== */
 
 body {
-    background: #D9D4CC;
+  background: #D9D4CC;
 }
 
-/*
- * Container
- */
-
-
-
- .container {
-    margin: 4rem auto;
-    width: 600px;
-    background: white;
- }
-
- .container header {
-    text-align: center;
-    height:44px;
-    background-color: #ad141e;
-    color: white;
-    border-radius: 4px 4px 0 0;
-
- }
-
- .container header h1 {
-    margin:0;
-    line-height: 44px;
-    font-size:18px;
-    font-weight: normal;
-
- }
-
- .container section {
-    width: 300px;
-    height:740px;
-    float:left;
-    background-color: #E5E5E5;
- }
-
- .playbook h1 {
-    display: block;
-    background-color: #fff;
-    color: #333;
-    line-height: 19px;
-    font-size: 14px;
-    padding: 8px;
-    margin:0;
-    border-bottom: 1px solid rgba(0,0,0,.14);
-
- }
-
- .playbook img {
-    width:250px;
-    margin: 25px auto 0;
-    display: block;
-    box-shadow: 0 1px 6px rgba(0,0,0,.28);
- }
-
- .playbook p {
-    padding: 0 25px;
- }
-
- .playbook p a {
-    margin-top: 40px;
-    display: block;
-    padding: 12px;
-    background-color: #2B5E3A;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
- }
-
- .playbook p a span {
-    display: block;
-    font-weight: normal;
-    font-size: 12px;
-    color: rgba(255,255,255,.8);
- }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Image replacement
- */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
+.container {
+  background: white;
+  margin: 4rem auto;
+  width: 600px;
 }
 
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+.container header {
+  background-color: #ad141e;
+  border-radius: 4px 4px 0 0;
+  color: white;
+  height:44px;
+  text-align: center;
 }
 
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
+.container header h1 {
+  font-size:18px;
+  font-weight: normal;
+  line-height: 44px;
+  margin:0;
+}
+
+.container section {
+  background-color: #E5E5E5;
+  float:left;
+  height:740px;
+  width: 300px;
+}
+
+.playbook h1 {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.14);
+  color: #333;
+  display: block;
+  font-size: 14px;
+  line-height: 19px;
+  margin:0;
+  padding: 8px;
+}
+
+.playbook img {
+  box-shadow: 0 1px 6px rgba(0,0,0,.28);
+  display: block;
+  margin: 25px auto 0;
+  width:250px;
+}
+
+.playbook p {
+  font-weight: lighter;
+  padding: 0 25px;
+}
+
+.playbook p a {
+  background-color: #2B5E3A;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 40px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.playbook p a span {
+  color: rgba(255,255,255,.8);
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.footer {
+  font-weight: lighter;
+  margin: 20px auto;
+  text-align: center;
+  width: 600px;
+}
+
+.footer a, .footer a:visited {
+  color: #0084b4;
+  text-decoration: none;
+}
+
+.footer a:active, .footer a:hover {
+  text-decoration: underline;
+}
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
-
-/*
- * Hide only visually, but have it available for screenreaders: h5bp.com/v
- */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
-
-/*
- * Extends the .visuallyhidden class to allow the element to be focusable
- * when navigated to via the keyboard: h5bp.com/p
- */
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
-
-/*
- * Hide visually and from screenreaders, but maintain layout
- */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /*
@@ -288,94 +195,5 @@ body {
  */
 
 .clearfix {
-    *zoom: 1;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: h5bp.com/r
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  *zoom: 1;
 }

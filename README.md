@@ -1,11 +1,15 @@
 Agile Development with Heroku
 =============================
 
-This is the site used in the April 17, 2013 webinar hosted by thoughtbot and
-Heroku on the agile development process.
+This is an example site used for the April 17, 2013 webinar hosted by thoughtbot
+and Heroku on the agile development process.
 
-It is a simple HTML/CSS site served via [Sinatra](http://sinatrarb.com), a Ruby
-web application framework.
+It is a static HTML/CSS site served via [Unicorn][1] and [Sinatra][2].
+
+It includes `Rack::LogRequestID` middleware to showcase the [Heroku Request
+ID][3] labs plugin.
+
+It includes the New Relic Ruby gem to showcase the [New Relic Heroku addon][4].
 
 Setup
 -----
@@ -30,13 +34,17 @@ Deploy to staging:
 
     git push staging
 
-Acceptance test on [staging][1].
+Acceptance test on [staging][5].
 
 Then, deploy to production:
 
     git push production
 
-Acceptance test on [production][2].
+Acceptance test on [production][6].
 
-[1]: http://staging.webinar.thoughtbot.com
-[2]: http://webinar.thoughtbot.com
+[1]: https://github.com/defunkt/unicorn
+[2]: http://sinatrarb.com
+[3]: https://devcenter.heroku.com/articles/http-request-id
+[4]: https://addons.heroku.com/newrelic
+[5]: http://staging.webinar.thoughtbot.com
+[6]: http://webinar.thoughtbot.com

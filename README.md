@@ -30,15 +30,13 @@ Deploy to staging:
 
     git push staging
 
-Acceptance test on staging:
-
-    http://staging.webinar.thoughtbot.com
+Acceptance test on [staging][1].
 
 Then, deploy to production:
 
     git push production
 
-Acceptance test on production:
+Acceptance test on [production][2].
 
-    http://webinar.thoughtbot.com
-
+[1]: http://staging.webinar.thoughtbot.com
+[2]: http://webinar.thoughtbot.com

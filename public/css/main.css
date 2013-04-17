@@ -55,11 +55,12 @@ textarea {
 }
 
 /* ==========================================================================
-   Style by Alex Baldwin — http://alexbaldwin.com
+   Style by Alex Baldwin — http://twitter.com/alexbaldwin
    ========================================================================== */
 
 body {
   background: #D9D4CC;
+  font-family: 'Montserrat', 'Helvetica Neue', helvetica, arial, sans-serif;
 }
 
 .container {
@@ -96,6 +97,7 @@ body {
   color: #333;
   display: block;
   font-size: 14px;
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
   line-height: 19px;
   margin:0;
   padding: 8px;
@@ -111,6 +113,8 @@ body {
 .playbook p {
   font-weight: lighter;
   padding: 0 25px;
+  color: rgba(0,0,0,.5);
+  line-height: 24px;
 }
 
 .playbook p a {
@@ -118,22 +122,27 @@ body {
   border-radius: 4px;
   color: #fff;
   display: block;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 15px;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-top: 25px;
   padding: 12px;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-.playbook p a span {
-  color: rgba(255,255,255,.8);
-  display: block;
-  font-size: 12px;
-  font-weight: normal;
+.playbook p a:hover, .playbook p a:active {
+  background-color: #357846;
+}
+
+.playbook p a:active {
+  position: relative;
+  top: 3px;
 }
 
 .footer {
+  color: rgba(0,0,0,.3);
   font-weight: lighter;
   margin: 20px auto;
   text-align: center;

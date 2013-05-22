@@ -1,8 +1,8 @@
-Agile Development with Heroku
-=============================
+Webinar
+=======
 
-This is an example site used for the April 17, 2013 webinar hosted by thoughtbot
-and Heroku on the agile development process.
+This is an example site used for a presentation hosted by thoughtbot on the
+agile development process.
 
 It is a static HTML/CSS site served via [Unicorn][1] and [Sinatra][2].
 

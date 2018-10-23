@@ -5,7 +5,7 @@ GEM
       thor (>= 0.13.6)
     kgio (2.11.2)
     newrelic_rpm (3.6.0.83)
-    rack (1.5.2)
+    rack (1.6.10)
     rack-protection (1.5.0)
       rack
     raindrops (0.10.0)

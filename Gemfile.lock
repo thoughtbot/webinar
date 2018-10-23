@@ -5,7 +5,7 @@ GEM
       thor (>= 0.13.6)
     kgio (2.11.2)
     mustermann (1.0.3)
-    newrelic_rpm (3.6.0.83)
+    newrelic_rpm (5.4.0.347)
     rack (2.0.5)
     rack-protection (2.0.4)
       rack

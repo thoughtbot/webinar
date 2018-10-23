@@ -3,7 +3,7 @@ GEM
   specs:
     foreman (0.62.0)
       thor (>= 0.13.6)
-    kgio (2.8.0)
+    kgio (2.11.2)
     newrelic_rpm (3.6.0.83)
     rack (1.5.2)
     rack-protection (1.5.0)
@@ -28,3 +28,9 @@ DEPENDENCIES
   newrelic_rpm
   sinatra
   unicorn
+
+RUBY VERSION
+   ruby 2.5.3p105
+
+BUNDLED WITH
+   1.16.6
